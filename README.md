@@ -17,6 +17,8 @@ This repository contains the files for the parameters functions I created for my
 
 The parameter-exploration.ipynb file is the jupyter notebook file that I used for the process of creating my parameters. I then extracted my parameter functions into .py files which are pushed to the MajoranaNeutrinoHunt Github repository. The data files are not included in this repository due to the size of the files. 
 
+All data files can be found [here](https://zenodo.org/records/8257027).
+
 The parameters created include:
 
 - **Drift Time** (tdrift50.py): The time taken from the initiation of charge generation to the collection at the detector's point contact at the threshold of 50%.
