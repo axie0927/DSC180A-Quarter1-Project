@@ -15,7 +15,7 @@ The requriements.txt file lists all the python packages as well as versions need
 ## Features
 This repository contains the files for the parameters functions I created for my part of the . The Master.py file in the overall repository combines all the parameters created by each individual member of the project into one file. This file will be used in our Quarter 2 project where we utilize all the parameters created to train our machine learning models.
 
-The parameter-exploration.ipynb file is the jupyter notebook file that I used for the process of creating my parameters. I then extracted my parameter functions into .py files which are pushed to the MajoranaNeutrinoHunt Github repository.
+The parameter-exploration.ipynb file is the jupyter notebook file that I used for the process of creating my parameters. I then extracted my parameter functions into .py files which are pushed to the MajoranaNeutrinoHunt Github repository. The data files are not included in this repository due to the size of the files. 
 
 The parameters created include:
 

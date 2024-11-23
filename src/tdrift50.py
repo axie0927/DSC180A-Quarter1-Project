@@ -1,4 +1,5 @@
-# This function calculates the time taken from the initiation of charge generation to the collection at the detector's point contact at the threshold of 50%.
+# This function calculates the time taken from the initiation of charge generation 
+# to the collection at the detector's point contact at the threshold of 50%.
 
 import numpy as np
 

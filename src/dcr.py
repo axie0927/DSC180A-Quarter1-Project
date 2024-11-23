@@ -1,4 +1,5 @@
-# This function calculates the rate of area growth in the tail slope region. This is measured by the area above the tail slope to the peak of the rise. 
+# This function calculates the rate of area growth in the tail slope region. 
+# This is measured by the area above the tail slope to the peak of the rise. 
 
 import numpy as np
 
