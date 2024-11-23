@@ -3,8 +3,8 @@
 
 import numpy as np
 
-def get_tdrift50(waveform, start_idx = 1000):
-    
+def get_tdrift50(waveform, start_idx):
+
     # Find the index of the peak value
     max_idx = np.argmax(waveform)
 
@@ -15,7 +15,7 @@ def get_tdrift50(waveform, start_idx = 1000):
 
     # Find the x-value (index) where the waveform crosses the middle y-value
     mid_x_idx = start_idx + np.argmax(waveform[start_idx:max_idx] >= mid_y)
-
+    
     tdrift50 = mid_x_idx - start_idx 
 
     return int(tdrift50)
