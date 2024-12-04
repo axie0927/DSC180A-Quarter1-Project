@@ -12,7 +12,7 @@ git clone https://github.com/axie0927/DSC180A-Quarter1-Project.git
 
 The requriements.txt file lists all the python packages as well as versions needed prior to running the code.
 
-To download the data, got to this [link](https://zenodo.org/records/8257027) and put the data into a folder named "data" in your working directory.
+To download the data, go to this [link](https://zenodo.org/records/8257027) and put the data into a folder named "data" in your working directory.
 
 ## Features
 This repository contains the files for the parameters functions I created for my part of the . The Master.py file in the overall repository combines all the parameters created by each individual member of the project into one file. This file will be used in our Quarter 2 project where we utilize all the parameters created to train our machine learning models.
