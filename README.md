@@ -25,7 +25,9 @@ The parameters created include:
 
 - **Drift Time** (tdrift50.py): The time taken from the initiation of charge generation to the collection at the detector's point contact at the threshold of 50%.
 
-- **Delayed Charge Recovery** (dcr.py): The rate of area growth in the tail slope region. This is measured by the area above the tail slope to the peak of the rise. 
+- **Delayed Charge Recovery** (dcr.py): The rate of area growth in the tail slope region. This is measured by the area above the tail slope to the peak of the rise.
+
+Information on the other parameters used can be found on the main repository.
 
 ## Further Reading
 [Majorana Demonstrator Data Release Notes](https://arxiv.org/pdf/2308.10856)
