@@ -1,6 +1,3 @@
-# This function calculates the rate of area growth in the tail slope region. 
-# This is measured by the area above the tail slope to the peak of the rise. 
-
 import numpy as np
 
 def find_dcr(waveform):
@@ -18,6 +15,6 @@ def find_dcr(waveform):
     time_indices = np.arange(peak_idx, len(waveform))
 
     # Calculate DCR region
-    area_above_tail_slope = np.trapezoid(peak_val - data_after_peak, x=time_indices) 
-    
+    area_above_tail_slope = np.trapezoid(peak_val - data_after_peak, x=time_indices)
+
     return area_above_tail_slope

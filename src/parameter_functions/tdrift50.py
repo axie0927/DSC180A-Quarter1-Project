@@ -1,10 +1,5 @@
-# This function calculates the time taken from the initiation of charge generation 
-# to the collection at the detector's point contact at the threshold of 50%.
-
-import numpy as np
-
-def get_tdrift50(waveform, start_idx):
-
+def get_tdrift50(waveform, start_idx = 1000):
+    
     # Find the index of the peak value
     max_idx = np.argmax(waveform)
 
@@ -15,7 +10,9 @@ def get_tdrift50(waveform, start_idx):
 
     # Find the x-value (index) where the waveform crosses the middle y-value
     mid_x_idx = start_idx + np.argmax(waveform[start_idx:max_idx] >= mid_y)
-    
+
     tdrift50 = mid_x_idx - start_idx 
+
+    ## print(f" Start X value: {start_idx}\n",f"50% X value: {mid_x_idx}\n",f"tdrift50: {tdrift50}\n")
 
     return int(tdrift50)
